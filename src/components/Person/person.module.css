@@ -1,0 +1,9 @@
+
+.Person {
+    flex: 1 0 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 15px;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
