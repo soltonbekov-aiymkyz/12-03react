@@ -9,7 +9,7 @@ function App() {
     { name: "Danila",photo: "./320474.png", role: "Student", wpm: -5, commits: 1244 },
     { name: "Madina", photo: "./320474.png",role: "Student", wpm: 30, commits: 5000 },
     { name: "Tatyna",photo: "./320474.png", role: "Student", wpm: 27, commits: 572541 },
-    { name: "Emirlan", role: "Student", wpm: 20, commits: 56566 },
+    { name: "Emirlan",photo: "./320474.png", role: "Student", wpm: 20, commits: 56566 },
     { name: "Baitemir", role: "Student", wpm: 35, commits: 556 },
     { name: "Yntymak", role: "Student", wpm: 40, commits: 55 },
     { name: "Tamara", role: "Student", wpm: 32, commits: 999 },
