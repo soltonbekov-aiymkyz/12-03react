@@ -1,6 +1,5 @@
-import React from 'React'
 
-import classes from "./Person.module.css";
+import classes from "./person.module.css";
 const Person = ({name, photo, role, wpm, commits}) => {
         return (
             <div className={classes.Person}>

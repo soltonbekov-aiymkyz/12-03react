@@ -1,5 +1,5 @@
 
-import PersonList from "./components/PersonList/PersonList";
+//import PersonList from "./components/PersonList/PersonList";
 import Person from "./components/Person/Person";
 function App() {
   const persons = [
