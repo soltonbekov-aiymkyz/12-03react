@@ -11,7 +11,7 @@ function App() {
     { name: "Tatyna",photo: "./320474.png", role: "Student", wpm: 27, commits: 572541 },
     { name: "Emirlan",photo: "./320474.png", role: "Student", wpm: 20, commits: 56566 },
     { name: "Baitemir",photo: "./320474.png", role: "Student", wpm: 35, commits: 556 },
-    { name: "Yntymak", role: "Student", wpm: 40, commits: 55 },
+    { name: "Yntymak",photo: "./320474.png", role: "Student", wpm: 40, commits: 55 },
     { name: "Tamara", role: "Student", wpm: 32, commits: 999 },
     { name: "Nurkyz", role: "Student", wpm: 39, commits: 26 },
     { name: "Kunduz", role: "Student", wpm: 38, commits: 99 },
