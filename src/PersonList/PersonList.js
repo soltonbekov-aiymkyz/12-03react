@@ -1,4 +1,4 @@
-import React from 'React'
+//import React from 'React'
 import Person from "../Person/Person";
 import classes from "./PersonList.module.css";
 const PersonList = ({ persons }) => {
@@ -9,6 +9,8 @@ const PersonList = ({ persons }) => {
     );
 }
 export default PersonList;
+
+
   /*
 const example =[-1, -5,0, -7, 5, 8, 9];
 const example2 =[
