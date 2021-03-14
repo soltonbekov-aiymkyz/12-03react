@@ -1,6 +1,5 @@
 import React from 'React'
 import Person from "../Person/Person";
-//import Person from "./components/Person/Person";
 import classes from "./PersonList.module.css";
 const PersonList = ({ persons }) => {
     return (
