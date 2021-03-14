@@ -7,28 +7,3 @@
     padding-top: 10px;
     border-radius: 15px;
 }
-.name {
-    text-align: center;
-}
-.role {
-    text-align: center;
-    padding-top: 10px;
-}
-.wpm {
-    text-align: center;
-    padding-top: 5px;
-}
-.commits {
-    text-align: center;
-    padding-top: 5px;
-}
-.divPhoto {
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-.photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
