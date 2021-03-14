@@ -1,3 +1,4 @@
+import React from 'React'
 import classes from "./Person.module.css";
 const Person = ({ name, role, wpm, commits }) => {
     return (
@@ -10,3 +11,4 @@ const Person = ({ name, role, wpm, commits }) => {
     );
 }
 export default Person;
+
