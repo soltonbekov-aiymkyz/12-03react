@@ -13,7 +13,6 @@ const Person = ({ name, role, wpm, commits }) => {
 export default Person;
 */
 import classes from "./Person.module.css";
-
 const Person = ({name, photo, role, wpm, commits}) => {
         return (
             <div className={classes.Person}>
@@ -25,5 +24,4 @@ const Person = ({name, photo, role, wpm, commits}) => {
             </div>
         )
 }
- 
 export default Person;
