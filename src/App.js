@@ -1,10 +1,10 @@
 
-//import PersonList from "./components/PersonList/PersonList"
+import PersonList from "./components/PersonList/PersonList";
 import Person from "./components/Person/Person";
 function App() {
   const persons = [
-    { name: "Elaman", photo: "./elamanagai.jfif", role: "Teacher", wpm: 10, commits: 100 },
-    { name: "Choro", role: "Assistant", wpm: 78, commits: 10401 },
+    { name: "Elaman", photo: "./320474.png", role: "Teacher", wpm: 10, commits: 100 },
+    { name: "Choro", photo: "./320474.png", role: "Assistant", wpm: 78, commits: 10401 },
     { name: "Tynchtyk", role: "Teacher", wpm: 102, commits: 0 },
     { name: "Danila", role: "Student", wpm: -5, commits: 1244 },
     { name: "Madina", role: "Student", wpm: 30, commits: 5000 },
