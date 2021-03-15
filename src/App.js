@@ -16,7 +16,7 @@ function App() {
     { name: "Tamara", role: "Student", wpm: 32, commits: 999 },
     { name: "Nurkyz",photo:"https://avatars.githubusercontent.com/u/75364428?s=460&u=7598357a919d059b77d53b1b6fff021ba8d86522&v=4", role: "Student", wpm: 39, commits: 26 },
     { name: "Kunduz", role: "Student", wpm: 38, commits: 99 },
-    { name: "Adis", role: "Student", wpm: 39, commits: 56 },
+    { name: "Adis",photo:"https://avatars.githubusercontent.com/u/75364564?s=460&v=4", role: "Student", wpm: 39, commits: 56 },
     { name: "Islam",photo:"https://avatars.githubusercontent.com/u/75364564?s=460&v=4", role: "Student", wpm: 20, commits: 25 },
     { name: "Felix",photo:"https://avatars.githubusercontent.com/u/75364564?s=460&v=4", role: "Student", wpm: 25, commits: 99 },
     { name: "Erjan", photo: "https://avatars.githubusercontent.com/u/75364569?s=460&u=41423e83599f6073887a5c5bce317657a3e8cb0b&v=4", role: "Student", wpm: 19, commits: 9959 },
