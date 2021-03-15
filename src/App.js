@@ -7,7 +7,7 @@ function App() {
     { name: "Elaman", role: "Teacher", wpm: 10, commits: 100 },
     { name: "Choro", role: "Assistant", wpm: 78, commits: 10401 },
     { name: "Tynchtyk", role: "Teacher", wpm: 102, commits: 0 },
-    { name: "Danila", role: "Student", wpm: -5, commits: 1244 },
+    { name: "Danila",photo:"https://avatars.githubusercontent.com/u/75364564?s=460&v=4", role: "Student", wpm: -5, commits: 1244 },
     { name: "Madina", photo: "https://avatars.githubusercontent.com/u/75364399?s=460&u=bc77810078d496e3dfe66f27906b01f5db7f208b&v=4 ", role: "Student", wpm: 30, commits: 5000 },
     { name: "Tatyna", photo: "https://avatars.githubusercontent.com/u/75364411?s=460&u=b024420280528948f320ad191779a670439e54ec&v=4", role: "Student", wpm: 27, commits: 572541 },
     { name: "Emirlan", photo: "https://avatars.githubusercontent.com/u/75364762?s=460&u=1945ae5a1c13d5c73dd12e500b24e1965c06decc&v=4", role: "Student", wpm: 20, commits: 56566 },
