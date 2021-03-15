@@ -14,7 +14,7 @@ function App() {
     { name: "Baitemir", photo: "https://avatars.githubusercontent.com/u/65547734?s=460&u=7fc2c86db4a7a0feaef6f973739812aa62546604&v=4", role: "Student", wpm: 35, commits: 556 },
     { name: "Yntymak", photo: "https://avatars.githubusercontent.com/u/75364447?s=460&u=e5cab283f880cac68f5e9cec3b09e4559c5f5b8f&v=4", role: "Student", wpm: 40, commits: 55 },
     { name: "Tamara", role: "Student", wpm: 32, commits: 999 },
-    { name: "Nurkyz", role: "Student", wpm: 39, commits: 26 },
+    { name: "Nurkyz",photo:"https://avatars.githubusercontent.com/u/75364428?s=460&u=7598357a919d059b77d53b1b6fff021ba8d86522&v=4", role: "Student", wpm: 39, commits: 26 },
     { name: "Kunduz", role: "Student", wpm: 38, commits: 99 },
     { name: "Adis", role: "Student", wpm: 39, commits: 56 },
     { name: "Islam", role: "Student", wpm: 20, commits: 25 },
@@ -26,7 +26,7 @@ function App() {
     { name: "Karlygach", role: "Student", wpm: 25, commits: 66 },
     { name: "Keremet", photo: "https://avatars.githubusercontent.com/u/75364381?s=460&u=45e3b4a4b507e9aa2183b3241f23a50bee90a033&v=4", role: "Student", wpm: 32, commits: 52 },
     { name: "Kutman", role: "Student", wpm: 33, commits: 99 },
-    { name: "Chyngyz", photo:"https://avatars.githubusercontent.com/u/75364430?s=460&u=5d14a666ebe85ac942f42b3700734279608cdcc3&v=4" role: "Student", wpm: 36, commits: 559 },
+    { name: "Chyngyz", photo:"https://avatars.githubusercontent.com/u/75364430?s=460&u=5d14a666ebe85ac942f42b3700734279608cdcc3&v=4", role: "Student", wpm: 36, commits: 559 },
   ];
   const [filterStudents, setFilterStudents] = useState(false)
   const [filterWpm, setFilterWpm] = useState(false)
