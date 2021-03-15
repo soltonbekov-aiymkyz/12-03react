@@ -80,7 +80,7 @@ function App() {
           /> Only Commits
         </label>
       </div>
-      {/* <PersonList persons={commits} />  */}
+     <PersonList persons={commits} />  
     </div>
   );
 }
