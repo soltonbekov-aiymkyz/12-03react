@@ -1,5 +1,4 @@
 
-//import PersonList from "./components/PersonList/PersonList";
 import Person from "./components/Person/Person";
 function App() {
   const persons = [
@@ -27,13 +26,46 @@ function App() {
     { name: "Kutman", role: "Student", wpm: 33, commits: 99 },
     { name: "Chyngyz", role: "Student", wpm: 36, commits: 559 },
   ];
-  const output = persons.map(person => <Person {...person} />);
+  
+  
+  const students = persons.filter(person => person.role == "Student");
+   const wpms = persons.filter(person => person.wpm > 35);
+   const commits = persons.filter(person => person.commits > 35);
+
+  const[ filterStudents,setFilterStudents]=useState(false);
   return (
+    <div className="App">
+      <div>
+        <label>
+        <input type="checkbox"
+         checked={filterStudents}
+         onChange={()=> setFilterStudents(!filterStudents)}
+         /> Only students
+        </label>
+        
+      </div>
+     <PersonList persons={persons}/>
+  
+
+    </div>
+  );
+}
+export default App;
+
+
+
+
+
+
+
+  /*
+  const output = persons.map(person => <Person {...person} />);
+ return (
     <div className="App">
       {output}
     </div>
   );
-}
+}*/
 /*
 const students = persons.filter(person => person.role == "Student")
   return (
@@ -42,5 +74,9 @@ const students = persons.filter(person => person.role == "Student")
     </div>
   );
   }*/
+  /*
 export default App;
+*/
+
+
 

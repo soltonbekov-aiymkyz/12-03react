@@ -12,3 +12,6 @@ const Person = ({name, photo, role, wpm, commits}) => {
         )
 }
 export default Person;
+
+
+
