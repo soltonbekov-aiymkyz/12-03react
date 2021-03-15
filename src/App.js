@@ -27,12 +27,24 @@ function App() {
     { name: "Chyngyz", role: "Student", wpm: 36, commits: 559 },
   ];
   
-  
-  const students = persons.filter(person => person.role == "Student");
-   const wpms = persons.filter(person => person.wpm > 35);
-   const commits = persons.filter(person => person.commits > 35);
+const [filterStudents,setFilterStudents ]= useState(false)
+const [filterWpm,setFilterWpm ]= useState(false)
 
-  const[ filterStudents,setFilterStudents]=useState(false);
+let students =persons;
+if(filterStudents){
+  students = persons.filter(person => person.role == "Student")
+}
+
+
+let wpm =students;
+if(filterWpm){
+  wpm = students.filter(person => person.wpm > 34)
+}
+
+// const[ filterStudents,setFilterStudents]=useState(false);
+//  const students = persons.filter(person => person.role == "Student");
+//  const wpms = persons.filter(person => person.wpm > 35);
+   // const fast = students.filter(person => person.wpm >34);
   return (
     <div className="App">
       <div>
@@ -42,11 +54,17 @@ function App() {
          onChange={()=> setFilterStudents(!filterStudents)}
          /> Only students
         </label>
-        
       </div>
-     <PersonList persons={persons}/>
-  
 
+      <div className="wpm">
+        <label>
+        <input type="checkbox"
+         checked={filterWpm}
+         onChange={()=> setFilterWpm(!filterWpm)}
+         /> Only students
+        </label>
+      </div>
+     <PersonList persons={wpm}/>
     </div>
   );
 }
