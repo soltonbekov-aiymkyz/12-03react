@@ -31,7 +31,6 @@ function App() {
   const [filterStudents, setFilterStudents] = useState(false)
   const [filterWpm, setFilterWpm] = useState(false)
   const [filterCommits, setFilterCommits] = useState(false)
-  let students = persons;
   let students =persons;
   if (filterStudents) {
     students = persons.filter(person => person.role == "Student")
