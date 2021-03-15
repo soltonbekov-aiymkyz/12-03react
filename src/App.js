@@ -26,7 +26,7 @@ function App() {
     { name: "Karlygach", role: "Student", wpm: 25, commits: 66 },
     { name: "Keremet", photo: "https://avatars.githubusercontent.com/u/75364381?s=460&u=45e3b4a4b507e9aa2183b3241f23a50bee90a033&v=4", role: "Student", wpm: 32, commits: 52 },
     { name: "Kutman", role: "Student", wpm: 33, commits: 99 },
-    { name: "Chyngyz", role: "Student", wpm: 36, commits: 559 },
+    { name: "Chyngyz", photo:"https://avatars.githubusercontent.com/u/75364430?s=460&u=5d14a666ebe85ac942f42b3700734279608cdcc3&v=4" role: "Student", wpm: 36, commits: 559 },
   ];
   const [filterStudents, setFilterStudents] = useState(false)
   const [filterWpm, setFilterWpm] = useState(false)
