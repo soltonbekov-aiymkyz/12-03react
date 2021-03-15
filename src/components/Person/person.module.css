@@ -6,6 +6,10 @@
     padding: 15px;
     padding-top: 10px;
     border-radius: 15px;
+    display:inline-block;
+    flex-flow: wrap row;
+    text-align: center;
+    justify-content: center; 
 }
 .name {
     text-align: center;
