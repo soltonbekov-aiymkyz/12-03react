@@ -1,7 +1,7 @@
 
-//import Person from "./components/Person/Person";
 import PersonList from "./components/PersonList/PersonList";
 import { useState } from "react"
+import Filter from "./components/Filter/Filter";
 function App() {
   const persons = [
     { name: "Elaman", role: "Teacher", wpm: 10, commits: 100 },
@@ -31,56 +31,23 @@ function App() {
   const [filterStudents, setFilterStudents] = useState(false)
   const [filterWpm, setFilterWpm] = useState(false)
   const [filterCommits, setFilterCommits] = useState(false)
-  let students =persons;
-  if (filterStudents) {
-    students = persons.filter(person => person.role == "Student")
-  }
-  let wpm = students;
-  if (filterWpm) {
-    wpm = students.filter(person => person.wpm > 34)
-  }
-  let commits = students;
-  if (filterCommits) {
-    commits = students.filter(person => person.commits > 1000)
-  }
+  
   return (
     <div className="App">
-       {/* <Filter state={filterStudents} change={setFilterStudents} >
+      <Filter state={filterStudents} change={setFilterStudents}>
         Only students
-       </Filter>
-
-      <Filter state={filterWpm} change={setFilterWpm} >
-        Only wpm
-       </Filter>
-
-      <Filter state={filterCommits} change={setFilterCommits} >
-        Only commits
-       </Filter>  */}
- <div>
-        <label>
-          <input type="checkbox"
-            checked={filterStudents}
-            onChange={() => setFilterStudents(!filterStudents)}
-          /> Only students
-        </label>
-      </div>
-      <div className="wpm">
-        <label>
-          <input type="checkbox"
-            checked={filterWpm}
-            onChange={() => setFilterWpm(!filterWpm)}
-          /> Only wpm
-        </label>
-      </div>
-      <div className="commits">
-        <label>
-          <input type="checkbox"
-            checked={filterCommits}
-            onChange={() => setFilterCommits(!filterCommits)}
-          /> Only Commits
-        </label>
-      </div>
-     <PersonList persons={commits} />  
+      </Filter>
+      <Filter state={filterWPM} change={setFilterWPM}>
+        35WPM
+      </Filter>
+      <Filter state={filterCommits} change={setFilterCommits}>
+        1000 Commits
+      </Filter>
+      <PersonList
+        persons={persons}
+        filterStudents={filterStudents}
+        filterWPM={filterWPM}
+        filterCommits={filterCommits} />
     </div>
   );
 }
@@ -105,32 +72,3 @@ export default App;
 
 
 
-
-
-
-/*
-const output = persons.map(person => <Person {...person} />);
-return (
-  <div className="App">
-    {output}
-  </div>
-);
-
-}*/
-/*
-const students = persons.filter(person => person.role == "Student")
-  return (
-    <div className="App">
-     <PersonList persons={students}/>
-    </div>
-  );
-  }*/
-/*
-export default App;
-*/
-
-
-
-
-
-/////////////////////
