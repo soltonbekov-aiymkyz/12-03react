@@ -25,3 +25,4 @@ const PersonList = ({ persons, filterStudents, filterWPM, filterCommits }) => {
  );
 }
 export default PersonList;
+

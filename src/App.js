@@ -29,7 +29,7 @@ function App() {
     { name: "Chyngyz", photo:"https://avatars.githubusercontent.com/u/75364430?s=460&u=5d14a666ebe85ac942f42b3700734279608cdcc3&v=4", role: "Student", wpm: 36, commits: 559 },
   ];
   const [filterStudents, setFilterStudents] = useState(false)
-  const [filterWpm, setFilterWpm] = useState(false)
+   const [filterWpm, setFilterWpm] = useState(false)
   const [filterCommits, setFilterCommits] = useState(false)
   
   return (
@@ -37,9 +37,9 @@ function App() {
       <Filter state={filterStudents} change={setFilterStudents}>
         Only students
       </Filter>
-      <Filter state={filterWPM} change={setFilterWPM}>
+       <Filter state={filterWPM} change={setFilterWPM}>
         35WPM
-      </Filter>
+      </Filter> 
       <Filter state={filterCommits} change={setFilterCommits}>
         1000 Commits
       </Filter>
