@@ -28,8 +28,8 @@ function App() {
     { name: "Kutman", role: "Student", wpm: 33, commits: 99 },
     { name: "Chyngyz", photo:"https://avatars.githubusercontent.com/u/75364430?s=460&u=5d14a666ebe85ac942f42b3700734279608cdcc3&v=4", role: "Student", wpm: 36, commits: 559 },
   ];
+  const [filterWPM, setFilterWPM] = useState(false);
   const [filterStudents, setFilterStudents] = useState(false)
-   const [filterWpm, setFilterWpm] = useState(false)
   const [filterCommits, setFilterCommits] = useState(false)
   
   return (
